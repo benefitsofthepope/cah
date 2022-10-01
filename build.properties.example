@@ -1,21 +1,21 @@
 pyx.cookie_domain=.localhost
-pyx.max_users=100
-pyx.max_games=25
+pyx.max_users=25
+pyx.max_games=3
 pyx.include_inactive_cardsets=false
 pyx.broadcast_connects_and_disconnects=true
-pyx.global_chat_enabled=true
+pyx.global_chat_enabled=false
 pyx.game_chat_enabled=true
 # allow fill-in-the-blank cards at all. Limits are set via constants in GameOptions.
-pyx.allow_blank_cards=true
+pyx.allow_blank_cards=false
 # allow identification codes to be used without HTTPS
-pyx.insecure_id_allowed=true
+pyx.insecure_id_allowed=false
 # set this to some secure random value, and never change it, unless you want to break all codes
 pyx.id_code_salt=
 # comma-separated listed of IP addresses (v4 or v6) from which users are considered admins.
 # IPv6 addresses must be fully spelt out without omitting groups of 0s with ::
 pyx.admin_addrs=127.0.0.1,0:0:0:0:0:0:0:1
 # comma-separated list of strings banned from appearing in nicks.
-pyx.banned_nicks=xyzzy
+pyx.banned_nicks=xyzzy,faggot
 
 # The name of a class that implements net.socialgamer.cah.util.ChatFilter.ShadowBannedStringProvider
 # which will then be called to get the shadowbanned strings.
